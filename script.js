@@ -6,7 +6,7 @@
 const body = document.querySelector('body')
 
 const img = document.createElement('img');
-let randomNumber = Math.floor(Math.random() * 9) + 1;
+const randomNumber = Math.floor(Math.random() * 9) + 1;
 img.src = `img/${randomNumber}.jpg`;
 body.appendChild(img);
 
